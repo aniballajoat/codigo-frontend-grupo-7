@@ -22,3 +22,8 @@ img {
     background-color: red;
     text-align: center;
 }
+.input-estilos{
+    background-color: white;
+    caret-color: pink;
+    color: green;
+}
