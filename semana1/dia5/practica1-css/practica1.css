@@ -27,3 +27,8 @@ img {
     caret-color: pink;
     color: green;
 }
+
+form>label+input{
+    font-size: 100px;
+    background-color: orange;
+}
