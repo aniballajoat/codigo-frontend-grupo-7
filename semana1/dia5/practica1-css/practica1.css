@@ -1,0 +1,24 @@
+#nombre{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+img {
+    margin: auto;
+    display: block;
+}
+
+.clase1 {
+    text-align: left;
+    background-color: yellow;
+}
+
+.clase2 {
+    text-align: center;
+    background-color: greenyellow;
+
+}
+#footer {
+    background-color: red;
+    text-align: center;
+}
