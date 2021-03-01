@@ -62,6 +62,7 @@ body {
     background-color: teal;
     right: 0px;
     top: 0px;
+    border-radius: 15px;
 }
 
 #frase{
