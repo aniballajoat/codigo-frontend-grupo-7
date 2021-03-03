@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+}
+#primer-parrafo{
+    background-color: red;
+    max-width: 50%;
+    
+}
+#segundo-parrafo{
+    background-color: green;
+    opacity: 0.5;
+    
+}
+#tercer-parrafo{
+    background-color: blue;
+    opacity: 0.2;
+}
+#cuarto-parrafo{
+    background-color: rgba(35,128,6,0.1);
+
+}
+#contenedor{
+    
+    background-image: url(https://miro.medium.com/max/3840/0*oZLL-N4dGNlBe4Oh.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 400px;
+    width: 700px;
+}
