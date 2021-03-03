@@ -1,0 +1,21 @@
+*{
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    border-style: double dashed dashed dotted;
+    font-size: 40px;
+}
+
+#p1{
+    border-style: inset;
+}
+#p2{
+    border-style: double;
+}
+#p3{
+    border-style: solid;
+}
+#p4{
+    border-style: dotted double double dotted;
+}
