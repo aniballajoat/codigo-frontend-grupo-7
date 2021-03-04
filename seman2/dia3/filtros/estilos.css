@@ -1,0 +1,7 @@
+img{
+    filter: grayscale(100%);
+    border-radius: 20px;
+}
+#blur{
+    filter: blur(20px);
+}

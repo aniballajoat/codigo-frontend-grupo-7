@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(rgb(78, 179, 100), rgb(184, 128, 128));
+    height: 1400px;
+}
+#img1{
+    transform: rotate(180deg);
+}
+#img2{
+    padding-top: 300px;
+    filter: grayscale(100%);
+    border-radius: 20px;
+    transform: skewy(225deg);
+
+}
+img{
+    width: 30%;
+    height: 200%
+}

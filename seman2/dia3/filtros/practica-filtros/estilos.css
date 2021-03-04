@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(black, gray);
+    text-align: center;
+}
+#img1{
+    filter: grayscale(100%);
+    border-radius: 20px;
+
+}
+img{
+    width: 30%;
+    height: 200%
+}

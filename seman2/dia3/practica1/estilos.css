@@ -1,0 +1,35 @@
+#div1{
+    height: 250px;
+    width: 695px;
+    border-radius: 68%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    background-image: linear-gradient(to bottom right, blue, green, yellow, red, purple, orange, lightblue);
+}
+#div2{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right, red, yellow);
+}
+#div3{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom right, purple, orange);
+}
+#div4{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(180deg, aquamarine, brown);
+}
+
+#gradiente-linear-multicolores{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(red, green, blue);
+}
+#gradiente-lineal-multicolores-2{
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to right, red, green, pink, yellow, blue);
+}
