@@ -1,0 +1,22 @@
+#elemento{
+    width: 100%;
+    height: 100%;
+    animation: mi-animacion 1s infinite;
+}
+
+
+@keyframes mi-animacion{
+    0%{
+        background-color: brown;
+    }
+    50%{
+        background-color: cadetblue;
+    }
+    100%{
+        background-color: brown;
+    }
+}
+
+html, body{
+    height: 100%;
+}
