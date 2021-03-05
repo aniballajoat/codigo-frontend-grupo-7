@@ -1,0 +1,22 @@
+body{
+    background-image: linear-gradient(to bottom right, white,skyblue);
+}
+h1{
+    margin-left: 40px;
+}
+#texto{
+    width: 400px;
+    height: 300px;
+    border: 8px red;
+    border-style: dashed;
+    box-sizing: content-box;
+    margin-left: 40px;
+    background-color: white;
+    overflow-y: scroll;
+}
+#cuy{
+    width: 400px;
+    height: 200px;
+    border: solid 8px;
+    border-color: rgb(175, 0, 0) red red rgb(175, 0, 0);
+}
