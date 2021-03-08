@@ -1,13 +1,12 @@
 *{
-    margin: 0;
+    margin: auto;
     text-align: center;
+    position: relative;
 }
 #imagen-fondo{
     width: 100%;
     height: 100%;
-    opacity: 20%;
     position: fixed;
-    top: 0;
     left: 0;
     text-align: left;
 }
@@ -23,19 +22,79 @@ header{
 #links{
     display: inline-block;
 }
+#texto1{
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.473);
+    color: rgb(0, 255, 255);
+    text-align: center;
+    position: relative;
+    font-size: 50px;
+}
+#titulo{
+    text-align: center;
+}
 #foto{
     width: 200px;
     height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 50px;
     border-radius: 100%;
+    border: solid;
+    border-color: rgb(196, 196, 255) rgb(196, 196, 255) rgb(196, 196, 255) rgb(196, 196, 255);
+    background-color: rgba(255, 255, 255, 0.795);
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
 }
 #logo{
     width: 100px;
     height: 100px;
-    position: absolute;
     left: 20px;
 }
-#barra-top{
+#caja-logo{
+    width: 300px;
+    height: 110px;
     background-color: white;
+    text-align: center;
+    position: absolute;
+}
+#barra-top{
+    background-color: rgba(255, 255, 255, 0.164);
     width: 100%;
-    height: 150px;
+    height: 110px;
+}
+#topnav{
+    text-align: center;
+    padding-top: 45px;
+    background-color: white;
+    width: 300px;
+    height: 65px;
+    position: fixed;
+    right: 0;
+}
+#links{
+    margin-top: 100px;
+}
+.box{
+    width: 200px;
+    height: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 100px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border-radius: 20px;
+    color: black;
+    border: solid rgb(196, 196, 255);
+    font-size: 50px;
+}
+#wave-bottom{
+    left: 0;
+    margin-top: 90px;
+    opacity: 50%;
 }
