@@ -1,0 +1,78 @@
+#contenedor-horizontal{
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+}
+#contenedor-horizontal-inicio{
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    justify-content: flex-start;
+}
+#contenedor-horizontal-centro{
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    justify-content: center;
+}
+#contenedor-horizontal-final{
+    display: flex;
+    flex-direction: row;
+    background-color: royalblue;
+    justify-content: flex-end;
+}
+#contenedor-horizontal-header{
+    display: flex;
+    flex-direction: row;
+    background-color: thistle;
+    justify-content: space-between;
+}
+#contenedor-horizontal-expansor{
+    display: flex;
+    flex-direction: row;
+    background-color: peru;
+}
+#contenedor-horizontal-expansor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: mediumaquamarine;
+}
+#contenedor-horizontal-alinear-items{
+    display: flex;
+    flex-direction: row;
+    background-color: mediumblue;
+    align-items: flex-end;
+}
+#contenedor-vertical{
+    display: flex;
+    flex-direction: column;
+    background-color: yellowgreen;
+}
+#elemento1{
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: teal;
+}
+#elemento2{
+    flex-grow: 1;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: teal;
+}
+#elemento3{
+    flex-grow: 4;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: teal;
+}
+.elemento{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    background-color: teal;
+}
