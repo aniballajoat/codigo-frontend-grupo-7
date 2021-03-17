@@ -1,5 +1,6 @@
 //------------1------------------
 
+
 let misDatos = {
     hobbie1: "dormir",
     hobbie2: "dormirx2",
