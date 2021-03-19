@@ -135,3 +135,13 @@ for (let indice = 0; indice < alumnos_favoritos.length; indice++){
 }
 
 texto.textContent = informacion;
+
+let array_vocales = ["a","e","i","o","u"];
+let frases_vocales = "Mis vocales son: ";
+
+const mi_titulo = document.querySelector("h1");
+
+for(let i = 0; i < array_vocales.length; i++){
+    frases_vocales += array_vocales[i] + '  ';
+}
+mi_titulo.textContent = frases_vocales;
