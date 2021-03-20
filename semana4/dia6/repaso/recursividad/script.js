@@ -10,7 +10,16 @@ alert("Hey!!, adivinaste mi nombre");
 
 
 
+
+
 /*
+let mi_nombre = prompt("Adivina mi nombre?");
+
+do{
+    mi_nombre = prompt("Sigue intentando!!");
+}while(mi_nombre.toLowerCase()!== "anibal")
+alert("Hey!!, adivinaste mi nombre");
+*/
 
 let mi_nombre = prompt("Adivina mi nombre?");
 function adivina(){
@@ -23,11 +32,3 @@ function adivina(){
     }
 }
 adivina();
-*/
-
-let mi_nombre = prompt("Adivina mi nombre?");
-
-do{
-    mi_nombre = prompt("Sigue intentando!!");
-}while(mi_nombre.toLowerCase()!== "anibal")
-alert("Hey!!, adivinaste mi nombre");
