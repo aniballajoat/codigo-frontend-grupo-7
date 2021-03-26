@@ -1,5 +1,5 @@
 // window
-
+/*
 console.log(location);
 
 console.log("Esta es la URL de la pagina: ", location.href);
@@ -21,3 +21,25 @@ let intervalo = setInterval(() => {
     clearInterval(intervalo);
   }
 }, 1000);
+
+setTimeout(() => {
+    console.log("esta es la funcion de timeout") ;
+}, 3000);*/
+
+//localStorage
+//almacenamiento local
+window.localStorage.setItem("contrasenha", "1234");
+
+let contra = window.localStorage.getItem("contrasenha");
+
+let profile = window.localStorage.setItem("tema", "claro");
+
+window.localStorage.removeItem("contra");
+
+window.localStorage.clear();
+
+if(window.confirm("Deseas eliminar todas las variables guardadas?")){
+    alert("Ya se eliminaron");
+
+    window.localStorage.clear();
+}
