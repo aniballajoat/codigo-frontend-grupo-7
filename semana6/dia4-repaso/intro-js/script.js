@@ -127,7 +127,7 @@ switch (numeroParoImpar) {
 let arrayDeNumeros = [1, 2, 3, 4, 5];
 
 let arrayDeNombres = ["Marco", "Polo", "Raul", "Andrea", "Jimena"];
-*/
+
 let arrayDeUsuarios = [
   { nombre: "Paul", edad: 21, colorFav: "verde" },
   { nombre: "Marie", edad: 31, colorFav: "azul" },
@@ -142,6 +142,7 @@ let arrayDeUsuarios = [
   { nombre: "Jhonatan", edad: 11, colorFav: "rojo" },
   { nombre: "Jimena", edad: 71, colorFav: "dorado" },
 ];
+*/
 /*
 let elemento = arrayDeObjetos[0].nombre;
 
@@ -153,7 +154,7 @@ for (let i = 0; i < arrayDeObjetos.length; i++) {
   console.log(arrayDeObjetos[i]);
 }
 */
-
+/*
 function agrupar() {
   let verde15 = [];
   let verde50 = [];
@@ -212,3 +213,4 @@ function agrupar() {
   console.log("los colores existentes: ",colores);
 }
 agrupar();
+*/
